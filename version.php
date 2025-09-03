@@ -26,7 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component    = 'local_confetti';
 $plugin->release      = '1.0';
-$plugin->version      = 2025090218;
+$plugin->version      = 2025090219;
 $plugin->requires     = 2024100702.00;
 $plugin->supported    = [405, 405];
 $plugin->maturity     = MATURITY_STABLE;

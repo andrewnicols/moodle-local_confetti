@@ -49,6 +49,6 @@ class hook_callbacks {
     public static function gather_metrics_callback(
         \tool_monitoring\hook\gather_metrics $hook,
     ): void {
-        $hook->add_metric(\tool_monitoring\local\metrics\num_user_count::class);
+        $hook->add_metric(\local_confetti\local\metrics\confetti_thrown_count::class);
     }
 }
