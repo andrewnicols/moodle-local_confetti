@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['confettitext'] = 'Text';
+$string['confetti_thrown_count_description'] = 'The number of times that Confetti has been thrown in Moodle';
 $string['confettitext_desc'] = 'Insert the text to be shown in the confetti particles';
 $string['pluginname'] = 'Confetti';
 $string['privacy:metadata'] = 'The Confetti plugin doesn\'t store any personal data.';
