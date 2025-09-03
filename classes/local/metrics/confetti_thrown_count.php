@@ -48,7 +48,7 @@ class confetti_thrown_count implements metric_interface {
 
     #[\Override]
     public static function get_name(): string {
-        return 'local_confetti.confetti_thrown_count';
+        return 'local_confetti:confetti_thrown_count';
     }
 
     #[\Override]
