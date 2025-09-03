@@ -29,5 +29,10 @@ $callbacks = [
         'hook' => core\hook\output\before_http_headers::class,
         'callback' => [\local_confetti\hook\hook_callbacks::class, 'before_http_headers_callback'],
         'priority' => 500,
-    ]
+    ],
+    [
+        'hook' => \tool_monitoring\hook\gather_metrics::class,
+        'callback' => [\local_confetti\hook\hook_callbacks::class, 'gather_metrics_callback'],
+        'priority' => 500,
+    ],
 ];

@@ -45,4 +45,10 @@ class hook_callbacks {
             $event->trigger();
         }
     }
+
+    public static function gather_metrics_callback(
+        \tool_monitoring\hook\gather_metrics $hook,
+    ): void {
+        $hook->add_metric(\tool_monitoring\local\metrics\num_user_count::class);
+    }
 }
